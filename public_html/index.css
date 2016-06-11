@@ -1,0 +1,201 @@
+/* 
+    Document   : index
+    Created on : 29-jul-2013, 21:04:37
+    Author     : standaard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+html{
+    background-image: url("./images/backlayer.png");
+    background-repeat: repeat-y;
+}
+body{
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width:960px;
+}
+#offscreen{
+    display: none;
+}
+#banner{
+    background-image: url("./images/banner.png");
+    height: 101px;
+    width: 960px;
+}
+#navbar{
+}
+#navbar div{
+    float: left;
+    text-indent: -999em;
+}
+#navbar a{
+    display: block;
+    text-indent: -999em;
+    height: 51px;
+}
+#homebutton{
+    background-image: url("./images/homebutton.png");
+    width: 96px;
+}
+#blogbutton{
+    background-image: url("./images/blogbutton.png");
+    width: 108px;
+}
+#contactbutton{
+    background-image: url("./images/contactbutton.png");
+    width: 164px;
+}
+#productbutton{
+    width: 206px;
+    height: 51px;
+    background-image: url("./images/productbutton.png");
+}
+#coachingbutton{
+    width: 184px;
+    background-image: url("./images/coachingbutton.png");
+}
+#reinbutton{
+    width: 202px;
+    background-image: url("./images/reinbutton.png");
+}
+#productdropdown{
+    margin-top: 51px;
+    /*position: absolute;*/
+    display: none;
+}
+#productdropdown div{
+    float:none;
+}
+#productdropdown a{
+    width:206px;
+}
+#boekbutton{
+    background-image: url("./images/boekbutton.png");
+}
+#manualbutton{
+    background-image: url("./images/manualbutton.png");
+}
+#videocursusbutton{
+    background-image: url("./images/videocoursebutton.png");
+}
+#videoarea{
+    margin-left: 182px;
+    margin-top: 140px;
+    width: 605px;
+    height: 516px;
+    background-image: url("./images/videoarea.png");
+    overflow: hidden;
+}
+#vidcontainer{
+    margin-top:10px;
+    margin-left: 10px;
+    width:576px;
+    overflow:hidden;
+}
+video{
+    height: 432px;
+}
+.videocontrols{
+    position:absolute;
+    top: 681px;
+    left:342px;
+    height: 58px;
+    width:576px;
+    background-image: url("./images/videobuttonsforeground.png");
+}
+.playpausebutton{
+    width:170px;
+    height: 58px;
+    float:left;
+}
+.playbutton{
+    margin-left: 51px;
+    margin-top: 4px;
+    height: 48px;
+    width: 41px;
+}
+.play{
+    background-image: url("./images/playtriangle.png");
+}
+.pause{
+    background-image: url("./images/pause.png");
+}
+.progressbarbutton{
+    width:256px;
+    height: 58px;
+    float:left;
+}
+.schuivert{
+    /*background-image: url("./images/progressblock.png");*/
+    margin-top: 15px;
+    margin-left: 24px;
+    height:18px;
+    width: 13px;
+}
+.schuivert img{
+    display: none;
+}
+.schuifcanvas{
+    height: 18px;
+    width: 13px;
+}
+/*.schuif0{
+    background-color: white;
+    height:18px;
+    width:1px;
+    opacity: 1;
+    float: left;
+}
+.schuif1{
+    background-image: url("./images/progressblock.png");
+    background-position: right;
+    height:18px;
+    width: 11px;
+    float: left;
+    opacity: 1;
+}
+.schuif2{
+    background-color:white;
+    height:18px;
+    width: 1px;
+    opacity: 0;
+    float:left;
+}*/
+.volumebutton{
+    width:150px;
+    height: 58px;
+    float:left;
+}
+.volume{
+    background-image: url("./images/volumeblock.png");
+    height:23px;
+    width: 11px;
+    margin-left: 32px;
+    margin-top: 19px;
+}
+#content{
+    margin-top: 10px;
+}
+.header{
+    margin-left:84px;
+    background-image: url("./images/textheader.png");
+    height: 65px;
+    width: 798px;
+}
+.text{
+    margin-left: 85px;
+    background-image: url("./images/backgrcontenttext.png");
+    background-repeat: repeat-y;
+    padding-left:12px;
+    padding-right:20px;
+    width:766px;
+    font-family: "Times", serif;
+    font-size: 24px;
+/*    word-spacing: 1px;*/
+/*    letter-spacing: 1px;*/
+}

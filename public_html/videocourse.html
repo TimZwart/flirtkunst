@@ -1,0 +1,63 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <LINK rel="stylesheet" type='text/css' href="index.css">
+    </head>
+    <body>
+        <canvas id="offscreen" width="300" height="300"></canvas>
+        <div id="banner"></div>
+        <div id="navbar">
+                <div><a id="homebutton" href="index.html">home</a></div>
+                <div><a id="blogbutton" href="blog.html">blog</a></div>
+                <div id="productbutton" >producten
+                    <div id="productdropdown">
+                        <div><a id="boekbutton" href="boek.html">boek</a></div>
+                        <div ><a id="videocursusbutton" href="videocourse.html">videocursus</a></div>
+                        <div><a id="manualbutton" href="manual.html">manual</a></div>
+                    </div>
+                </div>
+                <div><a id="coachingbutton" href="coaching.html">coaching</a></div>
+                <div><a id="reinbutton" href="rein.html">Over Rein</a></div>
+                <div><a id="contactbutton" href="contact.html">contact</a></div>
+        </div>
+        <div id="videoarea">
+            <div id="vidcontainer">
+            <video>
+                <source src="./videos/moonwalk.mp4">
+<!--                <source src="video.webm">-->
+            </video>
+            </div>
+            <div class="videocontrols">
+                <div class="playpausebutton">
+                    <div class="playbutton play"></div>
+                </div>
+                <div class="progressbarbutton">
+                    <div class="schuivert">
+                        <img src="images/progressblock.png">
+                        <canvas class="schuifcanvas" width="13" height="18"></canvas>
+<!--                        <div class="schuif0"></div>
+                        <div class="schuif1"></div>
+                        <div class="schuif2"></div>-->
+                    </div>
+                </div>
+                <div class="volumebutton">
+                    <div class="volume"></div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="header"></div>
+            <div class="text">
+                videocursus
+            </div>
+        </div>
+        <script src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+        <script src="js/video.js"></script>
+    </body>
+</html>
